@@ -1,0 +1,72 @@
+.feature{
+   height: 100vh;
+   background-color: crimson;
+  
+display: flex;
+overflow: hidden;
+transition: all 1.5s ease-in-out;
+
+}
+.igorleft{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 300px;
+    left: 70px;
+    background-color: crimson;
+    cursor: pointer;
+    pointer-events: auto;
+    z-index: 2;
+}
+.igorright{
+    position: absolute;
+    top: 300px;
+    right: 70px;
+    width: 100px;
+    height: 100px;
+   cursor: pointer;
+    background-color: crimson;
+    z-index: 2;
+}
+.couldyoubeloved{
+    width: 300vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    transition: all 3s ease-in-out;
+    opacity: 1;
+}
+.imgfeature{
+    width: 100vw;
+    height: 92%;
+    position: absolute;
+    top: 50px;
+    right: 200px;
+  
+    /*  */
+}
+.myloveisgone{
+    display: flex;
+    
+    /* transition: all 1.5s ease-in-out; */
+}
+.feelalright{
+    
+}
+.bufflow{
+
+}
+.jahprovide{
+    width: 400px;
+    height: 400px;
+    background-color: crimson;
+    color: white;
+    position: relative;
+    left: 720px;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+    padding: 10px;
+    /* transition: all 1.5s ease-in-out; */
+}
