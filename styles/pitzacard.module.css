@@ -1,0 +1,46 @@
+.pitzacard{
+ width: 25%;
+ height: 200px;
+ /* background-color: red; */
+ /* border: 1px solid #555555; */
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+ /* margin-left: 1px; */
+ cursor: pointer;
+ margin-top: 50px;
+}
+.migo{}
+.reseladachit{
+
+}
+.revive{
+    font-size: 23px;
+    color: crimson;
+}
+.jhonnyP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.reseladachit{
+
+}
+.reasontheyrememverme{
+/* margin-left: 10px; */
+margin-top: 10px;
+}
+.perplexed{
+    font-size: 20px;
+    color:#555
+}
+.ijustmetyou{
+    margin-top: 10px;
+}
+.figurely{
+    font-size: 14px;
+    color: #555;
+}

@@ -30,11 +30,11 @@ const Featured = () => {
             </div>
             <div className={styles.myloveisgone}>
             {/* style={{transform:`translateX(${-100*itemm}vw)`}} */}
-                <div className={styles.couldyoubeloved} style={{transform:`translateX(${-100*itemm}vw)`}}>
+                <div className={styles.couldyoubeloved} >
 {/* {arew.map((intem,i)=>(<></>))} */}
-                    {/* <div className={styles.imgfeature} >
+                    <div className={styles.imgfeature} >
                         <Image src={arew[itemm].img} layout='fill' objectFit='contain' />
-                    </div> */}
+                    </div>
                     <div className={styles.jahprovide}>
                         <div className={styles.feelalright}>
                             <h1>{arew[itemm].title}</h1>

@@ -3,8 +3,10 @@ import Image from 'next/image'
 import Featured from '../components/featured/Featured'
 import Footer from '../components/footer/Footer'
 import Layout from '../components/layout'
+import PitzaList from '../components/pitzalist/PitzaList'
 import styles from '../styles/Home.module.css'
-
+import Cart from './cart'
+// import Product from '../components/product/Product'
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -17,6 +19,9 @@ export default function Home() {
       <Image src="/public/img/I'm a Ruin_ fotografia.jpg" alt=""  layout="fill"/>
      
      <Featured/>
+     <PitzaList/>
+     {/* <Cart /> */}
+     {/* <Product/> */}
     </div>
   )
 }

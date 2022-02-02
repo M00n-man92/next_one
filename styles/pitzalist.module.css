@@ -1,0 +1,31 @@
+.pitzalist{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.beautigul{}
+.lenaaintin{
+    margin-left: 40px;
+ 
+    margin-right: 40px;
+    padding: 5px;
+
+}
+.myability{
+    font-size: 20px;
+    font-weight: 400;
+}
+.pimp{
+    font-weight: 500;
+    color: rgb(54, 53, 53);
+}
+.ongofthebestrapperalive{
+    width: 100%;
+/* background-color: red; */
+    display: flex;
+   
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}

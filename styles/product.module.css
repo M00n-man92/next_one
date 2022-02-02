@@ -1,0 +1,119 @@
+.product{
+    height: calc(100vh );
+    /* background-color: red; */
+    display: flex;
+    /* position: relative; */
+    overflow: hidden;
+    padding-top: 50px;
+}
+.agwagineshingi{
+flex: 1;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.keyetmetatrtaresh{
+    flex:1;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+}
+.tafya{
+margin-top: 20px;
+}
+.anchcnhi{
+    font-size: 40px;
+    font-weight: 5000;
+}
+.dundundundarara{
+    font-size: 30px;
+    font-weight: 400;
+    color: crimson;
+}
+.wekilneshkelay{
+    font-size: 26px;
+    font-weight: 800;
+
+}
+.jaletejira{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    /* justify-content:space-evenly; */
+    /* margin-right: 410px; */
+    /* background-color: red; */
+}
+.esktseer{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.lhunmoign{
+    position: relative;
+
+    top: -20px;
+    left: -10px;
+    background-color: teal;
+    color: white;
+    font-size: 12px;
+    border-radius: 20%;
+   
+}
+.erotalew{
+    background-color: teal;
+    border-radius: 12px;
+}
+/* 
+.lhunmoign:nth-child(2){
+    position: relative;
+    top: -30px;
+    left: 0px;
+}
+.lhunmoign:last-child{
+    position: relative;
+    top: -40px;
+    left: 0px;
+} */
+
+.lio{
+    position: relative;
+
+}
+.selamachnybza{
+    cursor: pointer;
+    /* margin-left: 60px; */
+    margin-right: 120px;
+    margin-left: 20px;
+    
+}
+.heylordyouknowimtired{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.jaleltite{
+    font-size: 14px;
+}
+.letmecome{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.tsyaywam{
+    margin-left: 10px;
+}
+.ashabelyaho{
+    width: 90px;
+    height: 30px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+.erererer{
+    width: 50px;
+    height: 30px;
+}
