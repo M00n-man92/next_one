@@ -11,7 +11,7 @@
     flex-direction: column;
 }
 .left{
-    flex: 2;
+    flex: 3;
     /* background-color: red; */
 }
 .right{
@@ -80,16 +80,18 @@ height: 70px;
     color: white;
 }
 .idontwnatyouwaitingtoolong{
+    margin-left: 10px;
     color: white;
 }
 .wheninmgoneontheglobefor{
     margin-top: 20px;
 }
 .shedragmedownlikegreavity{
-    color: green;
+    color: crimson;
     width: 170px;
     height: 40px;
   font-size: 20px;
+  
 }
 .likeyall{
 display:flex;
@@ -144,4 +146,15 @@ animation: getthere 1s ease infinite alternate;
    display: none;
    visibility: hidden;
    /* background-color: red; */
+}
+.alibaba{
+    display: flex;
+    flex-direction: column;
+}
+.jsutlookoveryourshouldersbabay{
+    display: flex;
+
+}
+.meetmewitharmsup{
+    margin-left: 5px;
 }

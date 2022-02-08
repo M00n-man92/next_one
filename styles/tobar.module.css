@@ -87,17 +87,27 @@ padding: 10px;
 } */
 .left{
     flex: 1;
-    /* background-color: green; */
+    /* background-color: red; */
+    
+    
+}
+.onthenightiwasboen{
     padding: 10px;
    display: flex;
    align-items: center;
    justify-content: center;
-    
+   /* background-color: reen; */
+   width: 70px;
+   cursor: pointer;
+   
+
 }
 .heynow{
    height: 15px;
    top: -10px;
-
+cursor: pointer;
+/* z-index: 4; */
+/* background-color: blackleft; */
    width: 15px;
    position: relative;
    background-color: #ffffff;
@@ -116,7 +126,7 @@ padding: 10px;
 .mercedis{
     top: -6px;
     font-size: 13px;
-color: black;
+color: crimson;
 position: relative;
 left: 2px;
 

@@ -8,10 +8,15 @@
  flex-direction: column;
  justify-content: center;
  /* margin-left: 1px; */
- cursor: pointer;
+
  margin-top: 50px;
+
+
 }
-.migo{}
+.migo{
+    /* background-color: red; */
+    cursor: pointer;
+}
 .reseladachit{
 
 }
