@@ -47,7 +47,7 @@ export default async function handler(req, res) {
             console.log("woemn who is solid")
             const result = await Product.findOneAndDelete({_id:id})
            
-                res.status(201).json({msg:"data recoverd successfully",success:true,data:result})
+                res.status(201).json({msg:"data recoverd successfully",success:true})
             
            
         }

@@ -48,7 +48,7 @@ bemyfate.push(relax)}
             // var products = []
             // product.map((item) => products.push(item))
             // console.log(products)
-            setImhappy(bemyfate)
+            // setImhappy(bemyfate)
             console.log( bemyfate)
             const result=await axios.post("http://localhost:3000/api/order",{username:name,phonenumber:phone,adress,price,method,prdoucts:bemyfate})
             // console.log("thisi isn't working but dont know why yet one")

@@ -1,0 +1,104 @@
+.admin{
+    padding-top: 50px;
+    display: flex;
+    width:100vw;
+}
+.thisistrue{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* background-color: aqua; */
+    margin-left: 10px;
+
+}
+.thismoreit{
+    flex: 3;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* background-color: aqua; */
+    /* margin-left: 10px; */
+}
+.igotangry{
+    font-size: 30px;
+    font-weight: 500;
+}
+.youaresonumb{
+    margin-top: 20px;
+
+}
+.higher{
+    width: 100%;
+    border-spacing: 20px;
+}
+.iwillwaitfiryou{
+    /* background-color: yellow; */
+width: 70px;
+height: 70px;
+}
+.butyouknewthatalready{
+    /* display: flex; */
+    margin-bottom: 60px;
+}
+.ineedyoutoreply{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left:80px ;
+
+}
+.ineedyoutoreplyeskamba{
+    /* display: flex; */
+    /* background-color: rebeccapurple; */
+    font-size: 12px;
+    font-weight: 500;
+    /* margin-left:80px ; */
+    width:40px;
+
+}
+.iwillwaitfiryou{
+    /* background-color: yellow; */
+width: 70px;
+height: 70px;
+}
+.theguythatgetsthetin{
+    display: flex;
+}
+.likorice{
+    margin-left: 10px;
+}
+.iloveyou{
+    /* margin-left: 15px; */
+    border: none;
+    background-color: rgb(34, 230, 34);
+    height: 30px;
+    border: 1px solid #555;
+    cursor: pointer;
+    color: white;
+}
+.rudystareintothecamersa{
+    border: none;
+    background-color: red;
+    height: 30px;
+    border: 1px solid #555;
+    cursor: pointer;
+    color: white;
+}
+.kingkenny{
+    font-size: 16px;
+    font-weight: 400;
+}
+.kingkennypluskey{
+    font-size: 12px;
+    font-weight: 400;
+    width: 40px;
+}
+.ypougonebe{
+    background-color: none;
+    height: 30px;
+    border: 1px solid #555;
+    cursor: pointer;
+    background-color:  #696969;
+    color: white;
+}

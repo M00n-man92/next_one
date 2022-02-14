@@ -5,12 +5,12 @@ export default async function handler(req, res) {
     // console.log("bearerer")
    const fucknickey=await dbConnect()
     // console.log(req)
-    const { method, query:{id} } = req;
+    const { method } = req;
     // console.log(method, url)
     
     if (method === "POST") {
-        console.log("heoolwor;d")
-        console.log(id)
+        // console.log("heoolwor;d")
+        // console.log(id)
         try {
             const newprodut = await Product.create(req.body)
             console.log(req.body)
@@ -27,7 +27,7 @@ export default async function handler(req, res) {
     }
     else if (method === "GET") {
         try {
-            console.log("woemn who is solid")
+            // console.log("woemn who is solid")
             const result = await Product.find()
             if (result) {
                 console.log("herer is the cure the antidote")

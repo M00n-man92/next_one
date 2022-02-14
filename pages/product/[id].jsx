@@ -84,20 +84,20 @@ setExtraItem((prev)=>[...prev,item])
                 </span>
                 <div className={styles.jaletejira}>
                     <div className={styles.selamachnybza}>
-                        <Image src="/img/size.png" width="25" height="25" className={styles.lio}  onClick={(e)=>sizehandler(0)}/>
+                        <Image alt="" src="/img/size.png" width="25" height="25" className={styles.lio}  onClick={(e)=>sizehandler(0)}/>
                         <span className={styles.lhunmoign}>
                             small
                         </span>
                     </div>
                     {pitza.price[1]?<div className={styles.selamachnybza}>
-                        <Image src="/img/size.png" width="35" height="35" className={styles.lio}  onClick={(e)=>sizehandler(1)}/>
+                        <Image alt="" src="/img/size.png" width="35" height="35" className={styles.lio}  onClick={(e)=>sizehandler(1)}/>
                         <span className={styles.lhunmoign}>
                             medium
                         </span>
                     </div>:<span></span>}
                     {
                         pitza.price[2]?<div className={styles.selamachnybza}>
-                        <Image src="/img/size.png" width="45" height="45" className={styles.lio}  onClick={(e)=>sizehandler(2)}/>
+                        <Image alt="" src="/img/size.png" width="45" height="45" className={styles.lio}  onClick={(e)=>sizehandler(2)}/>
                         <span className={styles.lhunmoign}>
                             large
                         </span>

@@ -15,7 +15,7 @@ const schema = new mongoose.Schema({
         extraItems:[{name:{type:String},price:{type:Number}}]}],
     isPreparing: {
         type: Number,
-        default: 2
+        default: 1
     },
     isOnTheWay: {
         type: Number,
@@ -23,8 +23,10 @@ const schema = new mongoose.Schema({
     },
     isDeliverd: {
         type: Number,
-        default: 0
+        default: -1
     },
+    whichisit:{type:String,default:"Is Preparing"}
 
+        
 })
 export default mongoose.models.order || mongoose.model("order", schema)

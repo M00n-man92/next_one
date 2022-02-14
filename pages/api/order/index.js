@@ -27,7 +27,7 @@ export default async function handler(req, res) {
     }
     else if (method === "GET") {
         try {
-            console.log("woemn who is solid")
+            // console.log("woemn who is solid")
             const result = await Order.find()
             if (result) {
                 console.log("herer is the cure the antidote")

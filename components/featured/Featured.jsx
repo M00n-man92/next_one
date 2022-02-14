@@ -26,14 +26,14 @@ const Featured = () => {
         <div className={styles.feature}>
 
             <div className={styles.igorleft} onClick={() => heandler("l")} >
-                <Image src="/img/arrowl.png" layout='fill' />
+                <Image alt="" src="/img/arrowl.png" layout='fill' />
             </div>
             <div className={styles.myloveisgone}>
             {/* style={{transform:`translateX(${-100*itemm}vw)`}} */}
                 <div className={styles.couldyoubeloved} >
 {/* {arew.map((intem,i)=>(<></>))} */}
                     <div className={styles.imgfeature} >
-                        <Image src={arew[itemm].img} layout='fill' objectFit='contain' />
+                        <Image alt="" src={arew[itemm].img} layout='fill' objectFit='contain' />
                     </div>
                     <div className={styles.jahprovide}>
                         <div className={styles.feelalright}>
@@ -49,7 +49,7 @@ const Featured = () => {
 
             </div>
             <div className={styles.igorright} onClick={() => heandler("r")}>
-                <Image src="/img/arrowr.png" layout="fill" />
+                <Image alt="" src="/img/arrowr.png" layout="fill" />
             </div>
         </div>)
 }

@@ -148,7 +148,7 @@ const Cart = () => {
                             <Image src={product.img} width="70" height="70" className={styles.anchianchi} />
                         </div>
                     </td>
-                    <td className={styles.aye}>
+                  <td className={styles.aye}>
                         <span className={styles.whenyougavemesomthingname}>
                             {product.title}
                         </span>

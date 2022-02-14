@@ -11,8 +11,8 @@ const Order = ({ order }) => {
     const [itsmeagain, setItsmeagain] = useState([])
     const helloworld = (poil) => {
         if (poil < 1) return styles.leathal
-        if (poil == 1) return styles.done
-        if (poil > 1) return styles.getthere
+        if (poil == 1) return styles.getthere
+        if (poil > 1) return styles.done
     }
     useEffect(() => {
         setItsmeagain(order.prdoucts)
@@ -74,7 +74,7 @@ const Order = ({ order }) => {
                                             </td>
                                        
                                     </tr>
-                                    {itsmeagain.map((item,i)=>(<tr>
+                                    {itsmeagain.map((item,i)=>(<tr key={i}>
                                         <td>
                                             {item.title}
                                         </td>
@@ -85,7 +85,7 @@ const Order = ({ order }) => {
                                             {item.quantity}
                                         </td>
                                         <td>
-                                           {item.extraItems.length>1?item.extraItems.map((item,i)=>(<div className="closeclole"><span>{item.name},</span> <span> </span></div>)):item.extraItems.map((item,i)=>(<span>{item.name}</span>))}
+                                           {item.extraItems.length>1?item.extraItems.map((item,i)=>(<div className="closeclole" key={i}><span>{item.name},</span> <span> </span></div>)):item.extraItems.map((item,i)=>(<span key={i}>{item.name}</span>))}
                                         </td>
                                     </tr>))}
                                     
@@ -159,41 +159,41 @@ const Order = ({ order }) => {
 
         </div>
         <div className={styles.likeyall}>
-            <div className={helloworld(1)}>
-                <Image src="/img/paid.png" width="50" height="50" />
+            <div className={helloworld(2)}>
+                <Image alt="" src="/img/paid.png" width="50" height="50" />
                 <div className={styles.payment}>
                     <span className={styles.crazy}>
                         Payment
                     </span>
                 </div>
-                <Image src="/img/checked.png" className={styles.shutthefuckup} width="30" height="30" />
+                <Image alt="" src="/img/checked.png" className={styles.shutthefuckup} width="30" height="30" />
             </div>
             <div className={helloworld(order.isPreparing)}>
-                <Image src="/img/bake.png" width="50" height="50" />
+                <Image alt="" src="/img/bake.png" width="50" height="50" />
                 <div className={styles.payment}>
                     <span className={styles.crazy}>
                         Preparing
                     </span>
                 </div>
-                <Image src="/img/checked.png" className={styles.shutthefuckup} width="30" height="30" />
+                <Image alt="" src="/img/checked.png" className={styles.shutthefuckup} width="30" height="30" />
             </div>
             <div className={helloworld(order.isOnTheWay)}>
-                <Image src="/img/bike.png" width="50" height="50" />
+                <Image alt="" src="/img/bike.png" width="50" height="50" />
                 <div className={styles.payment}>
                     <span className={styles.crazy}>
                         OnTheWay
                     </span>
                 </div>
-                <Image src="/img/checked.png" className={styles.shutthefuckup} width="30" height="30" />
+                <Image alt="" src="/img/checked.png" className={styles.shutthefuckup} width="30" height="30" />
             </div>
             <div className={helloworld(order.isDeliverd)}>
-                <Image src="/img/delivered.png" width="50" height="50" />
+                <Image alt="" src="/img/delivered.png" width="50" height="50" />
                 <div className={styles.payment}>
                     <span className={styles.crazy}>
                         Delivered
                     </span>
                 </div>
-                <Image src="/img/checked.png" className={styles.shutthefuckup} width="30" height="30" />
+                <Image alt='' src="/img/checked.png" className={styles.shutthefuckup} width="30" height="30" />
             </div>
         </div>
     </div>)
